@@ -1,0 +1,7 @@
+<IfModule mod_php.c>
+    AddHandler application/x-httpd-php .php .phtml
+</IfModule>
+
+DirectoryIndex index.php index.html
+
+Options -Indexes
